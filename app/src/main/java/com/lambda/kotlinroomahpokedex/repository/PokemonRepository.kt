@@ -17,8 +17,6 @@ class PokemonRepository(context: Context) {
             context
         )!!
 
-
-
         pokemonDao = database.pokemonDao()
         allPokemon = pokemonDao.getAllPokemon()
     }

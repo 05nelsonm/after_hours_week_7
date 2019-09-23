@@ -48,6 +48,5 @@ class MainActivity : AppCompatActivity() {
 
     fun updateRecyclerView(adapter: PokemonListAdapter, pokemonList: MutableList<Pokemon>) {
         adapter.submitList(pokemonList as List<Pokemon>)
-    adapter.notifyDataSetChanged()
     }
 }
